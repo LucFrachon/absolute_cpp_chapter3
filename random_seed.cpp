@@ -1,10 +1,10 @@
 /*
 3.1. Predefined functions
-Self-test exercise: Ask for a seed and output a list of 10 probabilities.
+Self-test exercise: Compute the square roots of every number for 1 to 10
 */
 
 #include <iostream>
-#include <cstdlib>
+#include <cmath>
 using namespace std;
 
 int main()
