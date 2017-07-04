@@ -1,2 +1,5 @@
-# absolute_cpp_chapter3
-Exercises for chapter 3 (Function Basics) of the book Absolute C++ by W. Savitch
+# Absolute C++ Chapter 3: Functions Basics
+
+This repository contains code that I wrote as answers to the programming exercises from the chapter mentioned above.
+
+Reference: Absolute C++ - Global Edition by Walter Savitch, Pearson
