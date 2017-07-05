@@ -61,12 +61,12 @@ int throw_dice()
 
 bool first_throw_win_condition(int score)
 {
-	return ((score == 7) || (score == 11));
+	return ((7 == score) || (11 == score));
 }
 
 bool first_throw_lose_condition(int score)
 {
-	return ((score == 2) || (score == 3) || (score == 12));
+	return ((2 == score) || (3 == score) || (12 == score));
 }
 
 int one_round()
@@ -92,12 +92,12 @@ int one_round()
 	}
 
 	//Subsequent throws
-	while (win_lose == 2)  //Keep throwing as long as neither 7 nor the point are thrown
+	while (2 == win_lose)  //Keep throwing as long as neither 7 nor the point are thrown
 	{
 		throw_result = throw_dice();
-		if (throw_result == 7)
+		if (7 == throw_result)
 			win_lose = 0;
-		else if (throw_result == point)
+		else if (point == throw_result)
 			win_lose = 1;
 	}
 

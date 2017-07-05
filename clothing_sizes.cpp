@@ -1,6 +1,7 @@
 /*
 Programming project 5: Clothing sizes
 Calculate clothing sizes based on user's height, weight, age
+Note: These calculations seem to be for a woman rather than a man!
 */
 
 #include <iostream>
